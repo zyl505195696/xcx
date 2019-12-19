@@ -1,0 +1,5 @@
+/* pages/form/form.wxss */
+.c-cls{
+  width: 100%;
+  height: 100%;
+}

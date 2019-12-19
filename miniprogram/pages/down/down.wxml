@@ -1,0 +1,9 @@
+pages/down/down.wxml
+<view>
+
+    <button bindtap="downloadFile">下载</button>
+    <button bindtap="downrequest">下载传输模式</button>
+     <button bindtap="downserve">数据提交</button>
+      <button bindtap="upload">上传图片</button>
+      <button bindtap="websocket">send</button>
+</view>

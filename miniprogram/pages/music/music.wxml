@@ -1,0 +1,35 @@
+<!--pages/music/music.wxml-->
+<!-- <text>最近添加</text>
+<view>
+  <view wx:for="{{songsList}}">
+  <image src="{{item.coverImgUrl}}"></image>
+    <text>{{item.name}}</text>
+    <text>{{item.singer}}</text>
+  </view>
+
+
+  <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+    <block wx:for="{{actionSheetItems}}">
+      <action-sheet-item bindtap='bindItemTap' data-sheetitem="{{item}}">
+        {{item}}
+      </action-sheet-item>
+    </block>
+      <action-sheet-cancel class="cancel">取消
+      </action-sheet-cancel>
+  </action-sheet>
+</view> -->
+
+<!-- <button bindtap="chooseImage">选择图片</button>
+<button bindtap="compressImage">压缩图片</button> -->
+
+<!-- <button bindtap="downloadFont">加载字体</button>
+
+<view>{{fontshow}}</view> -->
+<!-- <input placeholder="储存值" bindinput="inputVal"></input>
+<button bindtap="storage">储存</button>
+<button bindtap="getstorage">读取</button>
+<button bindtap="delete">删除</button> -->
+
+
+<button bindtap="saveData">数据存储</button>
+<navigator url="/pages/hello/hello?age=20">跳转新页面</navigator>

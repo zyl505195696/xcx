@@ -1,0 +1,47 @@
+/* pages/index1/index1.wxss */
+page{
+  height: 100%;
+}
+.con{
+  height: 100%;
+  box-sizing: border-box;
+
+}
+.meno{
+background: lightblue;
+}
+.scroll-nav{
+  
+  display: flex;
+  white-space: nowrap;
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.scroll-nav navigator{
+  font-weight: bold;
+  margin: 0 10rpx;
+}
+
+.swiper-view1{
+  width: 100%;
+  height: 800rpx;
+  background-color: pink;
+}
+
+.swiper-view2{
+   width: 100%;
+  height: 800rpx;
+  background-color: deepskyblue;
+}
+.swiper-view3{
+   width: 100%;
+  height: 800rpx;
+  background-color: greenyellow
+}
+.color-pink{
+  color: red;
+}
+.color-blue{
+  color: #000;
+}

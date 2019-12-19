@@ -1,0 +1,42 @@
+<!--pages/compass/compass.wxml-->
+<!-- <text>pages/compass/compass.wxml</text>
+<button bindtap="startCompass">罗盘监控开始</button>
+<button bindtap="endCompass">罗盘监控结束</button>
+<button bindtap="getConnectedWifi">获取连接中的wifi</button>
+<button bindtap="memoryWarning">性能监控</button>
+<button bindtap="accelerometer">开启加速器</button>
+<button bindtap="setClipboard">剪切板</button> -->
+
+
+<!-- <button bindtap="screen">屏幕亮度</button>
+<button bindtap="setScreen">设置屏幕亮度</button>
+<button bindtap="gyroscope">陀螺仪</button>
+<button bindtap="deviceMotion">手机方向操作</button>
+<button bindtap="makePhone">打电话</button>
+<button bindtap="scanCode">二维码扫码</button>
+<button bindtap="vibrate">系统振动</button> -->
+
+<button bindtap="window">窗口监听操作</button>
+<button bindtap="navigationBar">动态设置导航栏</button>
+<button bindtap="topBarText">置顶文本</button>
+<button bindtap="tabbar">动态tarbar设定</button>
+<button bindtap="hidetabbarRedHot">取消红点</button>
+
+<button bindtap="backgroundColor">动态设定背景样式</button>
+<button bindtap="pullDownRefresh">动态下拉刷新</button>
+<button bindtap="scrollTo">滚动页面的操作</button>
+<button bindtap="animation">动画制作</button>
+
+<view animation='{{animationData}}' class="animation"></view>
+
+<view bindtap="getAccessToken">获取getAccessToken</view>
+<view bindtap="accountInfo">获取当前用户信息</view>
+<view bindtap="address">获取地址</view>
+<view bindtap="location">获取位置</view>
+<view bindtap="chooseLocation">打开地图选择位置</view>
+<view bindtap="onShareMessage" open-type='share'>转发分享</view>
+
+<view bindtap="setTimeout" >定时器</view>
+<view bindtap="userLogin" >用户登录</view>
+<view bindtap="getPhoneNumber" open-type='getPhoneNumber'>获取手机号</view>
+<view bindtap="nearByPoilist" open-type='getPhoneNumber'>获取附近小程序</view>

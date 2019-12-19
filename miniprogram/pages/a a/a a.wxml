@@ -1,0 +1,71 @@
+<!--miniprogram/pages/a a/a a.wxml-->
+<!-- 这里是导航 -->
+<scroll-view class="scroll" scroll-x>
+  <view class="meno">
+    <navigator>新闻1</navigator>
+    <navigator>新闻2</navigator>
+    <navigator>新闻3</navigator>
+    <navigator>新闻4</navigator>
+    <navigator>新闻5</navigator>
+    <navigator>新闻6</navigator>
+    <navigator>新闻7</navigator>
+    <navigator>新闻8</navigator>
+    <navigator>新闻9</navigator>
+    <navigator>新闻10</navigator>
+  </view>
+</scroll-view>
+
+<!-- 数据显示 -->
+  name:{{name}}
+<!-- 数组遍历 -->
+  <view wx:for='{{[1,2,3,4]}}'>
+  {{item}}11111
+  </view>
+  <!-- 条件判断 -->
+<view wx:if='{{s>90}}'>
+ 666
+  </view>
+
+  <view wx:elif='{{s>70}}'>
+E
+  </view>
+
+  <view wx:else>
+NO
+  </view>
+<!-- 改名字 -->
+    <view wx:for='{{arr}}' wx:for-index='ind' wx:for-item="itm">
+  {{itm}}  {{ind}}
+  </view>
+
+  <!-- 模板 -->
+<template name="a">
+<view>aaaa</view>
+
+</template>
+
+<template is="{{b}}" data="{{...item}}"/>
+
+<!-- 事件绑定 -->
+<view bindtap="more">更多新闻</view>
+<!-- 这里是轮播图 -->
+<swiper class="swiper-img" autoplay interval="3000" indicator-dots  indicator-active-color="#ccc" indicator-color="white"  display-multiple-items="2" >
+<swiper-item>
+<image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3696740216,3818964672&fm=26&gp=0.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3176435965,1752438832&fm=11&gp=0.jpg"></image>
+</swiper-item>
+</swiper>
+<!-- 这里是内容 -->
+<!-- <scroll-view class="scroll-height" scroll-y>
+  <view >
+
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575020025502&di=f47618693c96ce1431dd3053acaf5347&imgtype=0&src=http%3A%2F%2Fwww.ichong123.com%2Fuploads%2F2014%2F10%2Fkeaimaomi1920maomixiezhendiyiji_114033_10.jpg"></image>
+  <view>这是猫猫一只</view>
+
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575020025502&di=f47618693c96ce1431dd3053acaf5347&imgtype=0&src=http%3A%2F%2Fwww.ichong123.com%2Fuploads%2F2014%2F10%2Fkeaimaomi1920maomixiezhendiyiji_114033_10.jpg"></image>
+  <view>这是猫猫一只</view>
+
+  </view>
+</scroll-view> -->

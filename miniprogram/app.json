@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/data/data",
+    "pages/compass/compass",
+  
+    "pages/hello/hello",
+    "pages/music/music",
+    "pages/voice/voice",
+    "pages/down/down",
+    "pages/form/form",
+    "pages/index1/index1",
+    "pages/a a/a a",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+
+  ],
+  "window": {
+    "backgroundColor": "#ddd",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "我的微信",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#ccc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon.png",
+        "selectedIconPath": "images/icon.jpg"
+      },
+      {
+        "pagePath": "pages/userConsole/userConsole",
+        "text": "日志",
+        "iconPath": "images/icon.png",
+        "selectedIconPath": "images/icon.jpg"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

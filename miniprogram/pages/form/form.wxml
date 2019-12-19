@@ -1,0 +1,37 @@
+<!--pages/form/form.wxml-->
+<!-- <text>pages/form/form.wxml</text> -->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <input name="inputName" placeholder="please"></input>
+  <button form-type="submit">submit</button>
+  <button form-type="reset">reset</button>
+
+    
+
+  <checkbox-group>
+    <checkbox value="1">beijing</checkbox>
+     <checkbox value="2">shanghai</checkbox>
+  </checkbox-group>
+
+    <!-- <checkbox-group>
+    <label wx:for='{{cityies}}'>
+       <checkbox value="{{item.name}}">{{item.name}}</checkbox>
+    </label>
+  </checkbox-group> -->
+<input value="{{packerVal}}"  placeholder="xuanze"></input>
+
+  <picker mode="selector" value="" range="{{abc}}" bindchange="pickerChange">
+  城市选择
+  </picker>
+</form>
+
+<!-- <camera device-position="front" class="c-cls" flash="off">
+  <cover-view>photo</cover-view>
+  <cover-image src=""></cover-image>
+</camera> -->
+
+<image src='{{photo}}'></image>
+<button bindtap="takePhoto">拍摄</button>
+<map longitude="121.48" latitude="25.22" scale="5"></map>
+
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userGender" lang="zh_CN"></open-data>

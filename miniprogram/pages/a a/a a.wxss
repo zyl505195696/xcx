@@ -1,0 +1,28 @@
+/* miniprogram/pages/a a/a a.wxss */
+page{
+  /* height: 100%; */
+}
+.scroll{
+  background-color: pink;
+  white-space: nowrap;
+}
+.meno{
+  display: flex;
+  font-size: 30rpx;
+  height:80rpx;
+  line-height: 80rpx;
+}
+.scroll navigator{
+  margin: 0 10rpx;
+}
+.scroll-height{
+  height:100%;
+}
+.swiper-img {
+ /* height: 100%; */
+ 
+}
+.swiper-img image{
+  width:100%;
+ 
+}

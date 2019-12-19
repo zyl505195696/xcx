@@ -1,0 +1,32 @@
+<!--pages/index1/index1.wxml-->
+<view class="con">
+  <view class="meno">
+    <scroll-view scroll-x>
+      <view class="scroll-nav">
+        <navigator data-i="0" url="" bindtap="news" class="{{currentTab==0?'color-pink':'color-blue'}}">1社会新闻</navigator>
+        <navigator data-i="1" url="" bindtap="news" class="{{currentTab==1?'color-pink':'color-blue'}}">国际新闻</navigator>
+        <navigator data-i="2" url="" bindtap="news" class="{{currentTab==2?'color-pink':'color-blue'}}">国内新闻</navigator>
+        <navigator url="">娱乐新闻</navigator>
+        <navigator url="">体育新闻</navigator>
+        <navigator url="">综合新闻</navigator>
+      </view>
+    </scroll-view>
+  </view>
+
+
+  <view>
+    <swiper current="{{currentTab}}" bindchange="swichange">
+      <swiper-item class="swiper-view1">1</swiper-item>
+      <swiper-item class="swiper-view2"> 2</swiper-item>
+      <swiper-item class="swiper-view3">3</swiper-item>
+    </swiper>
+  </view>
+
+
+
+  <audio id="myAudio" src="https://vdept.bdstatic.com/5a574a4558343879507a74763135424e/77726c4956504241/96a3aed7210d5752a391db7a99ea95d2733aa403b2a221c19b39b8d5d143f211956817f6517f03d8d19f78d39daaac77a995dc249f87482c0c87b115645620cb.mp4?auth_key=1575448322-0-0-9ef1528a03d5713f39c41b4d5ac56206"
+    class="" danmu-list="{{danmu}}"></audio>
+  <input placeholder="请输入弹幕内容" bindinput="inputVal"> </input>
+  <button bindtap="send" type="primary">发送</button>
+
+</view>

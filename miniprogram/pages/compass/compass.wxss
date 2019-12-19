@@ -1,0 +1,6 @@
+/* pages/compass/compass.wxss */
+.animation{
+  background-color: pink;
+  height: 100rpx;
+  width: 100rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/data/data.wxml-->
+<text>pages/data/data.wxml</text>
+<button bindtap="saveData">数据储存</button>
+<navigator url="/pages/hello/hello?age=20">跳转</navigator>
+
+<button bindtap="gotoSecondPage" data-id="123">去第二个页面</button>

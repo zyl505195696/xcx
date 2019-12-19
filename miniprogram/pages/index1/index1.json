@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+    "navigationBarBackgroundColor": "#F00",
+    "navigationBarTitleText": "今日头条",
+    "navigationBarTextStyle": "white"
+}
